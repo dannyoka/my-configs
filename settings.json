@@ -1,0 +1,100 @@
+{
+  "keyboard.dispatch": "keyCode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "vim.gdefault": true,
+  "vim.highlightedyank.enable": true,
+  "vim.vimrc.path": "$HOME/.vimrc",
+  "vim.vimrc.enable": true,
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "editor.lineNumbers": "relative",
+  "git.openRepositoryInParentFolders": "never",
+  "vim.enableNeovim": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "0"],
+      "commands": ["workbench.action.focusSideBar"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["editor.action.joinLines"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    },
+    {
+      "before": ["B"],
+      "after": ["_"]
+    },
+    {
+      "before": ["W"],
+      "after": ["$"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<Leader>", "t", "t"],
+      "commands": [":tabnew"]
+    },
+    {
+      "before": ["<Leader>", "t", "n"],
+      "commands": [":tabnext"]
+    },
+    {
+      "before": ["<Leader>", "t", "p"],
+      "commands": [":tabprev"]
+    },
+    {
+      "before": ["<Leader>", "s", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<Leader>", "c", "p"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<Leader>", "t", "o"],
+      "commands": [":tabo"]
+    },
+    {
+      "before": ["<Leader>", "s", "w", "f"],
+      "commands": ["workbench.action.files.saveWithoutFormatting"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["J"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    }
+  ],
+  "vim.useCtrlKeys": false
+}
